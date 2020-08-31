@@ -83,7 +83,6 @@ export default class RoomProvider extends Component {
 
     let tempRooms = [...rooms];
     // transform values
-    // get capacity
     capacity = parseInt(capacity);
     price = parseInt(price);
     // filter by type
